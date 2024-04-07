@@ -16,11 +16,17 @@ body {
 
 h1 {
     color: #333333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666666;
+    line-height: 1.6;
 }
 
 .download-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     margin-top: 20px;
     background-color: #007bff;
     color: #ffffff;
@@ -31,4 +37,24 @@ h1 {
 
 .download-button:hover {
     background-color: #0056b3;
+}
+
+.version {
+    font-size: 0.9em;
+    color: #888888;
+}
+
+.maj-info {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.maj-info strong {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
 }
